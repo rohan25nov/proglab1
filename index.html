@@ -34,9 +34,7 @@
             var output=eval(exp);
             document.getElementById('res').value=output*output;
         }
-        function clean() {
-            document.getElementById('res').value="";
-        }
+
     </script>
 </head>
 <body>
@@ -99,10 +97,8 @@
             </td>
         </tr>
         <tr>
-            <td colspan="2">
-                <button onclick="clean()" type="button">CLEAR</button>
-            </td>
-            <td colspan="3">
+
+            <td colspan="5">
                 <button onclick="square()" type="button">SQUARE</button>
             </td>
         </tr>
